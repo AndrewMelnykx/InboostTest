@@ -5,7 +5,7 @@
 
 While developing this To-Do Application—a clean, scalable task manager built with React, TypeScript, and Redux Toolkit—you might want to keep your terminal environment tidy, especially when running dev servers, testing, or building the app.
 
-(![Screenshot 2025-05-08 003740](https://github.com/user-attachments/assets/0e5217f7-4787-4393-8e2d-b37bbd2d1406))
+![Screenshot 2025-05-08 003740](https://github.com/user-attachments/assets/0e5217f7-4787-4393-8e2d-b37bbd2d1406))
 
 
 ## Features
