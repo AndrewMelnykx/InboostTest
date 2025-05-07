@@ -4,10 +4,12 @@ type FlowProps = {
   nodes: Node[];
   edges: Edge[];
 };
-interface CustomNodeData {
-  id: string;
-  label: string;
-  [key: string]: unknown;
+
+interface CustomNodeData extends Node<Record<string, unknown>, string> {
+  data: {
+    label: string;
+  };
+  position: { x: number; y: number };
 }
 
 export type { FlowProps, CustomNodeData };
