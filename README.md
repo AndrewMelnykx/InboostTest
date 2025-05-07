@@ -1,11 +1,11 @@
-# To-Do App
+# React Flow App
 
 [View the To-Do App Demo](https://andrewmelnykx.github.io/ToDoTest/)
 
 
-This project is a **To-Do Application** built with **React**, **TypeScript**, and **Redux Toolkit**. The app provides a simple yet effective way to manage tasks, showcasing clean architecture, scalable code, and a smooth user experience.
+While developing this To-Do Application—a clean, scalable task manager built with React, TypeScript, and Redux Toolkit—you might want to keep your terminal environment tidy, especially when running dev servers, testing, or building the app.
 
-![image](https://github.com/user-attachments/assets/78ca4fb1-6fac-446d-8347-176c99e57dc5)
+![image](![Screenshot 2025-05-08 003740](https://github.com/user-attachments/assets/0e5217f7-4787-4393-8e2d-b37bbd2d1406))
 
 
 ## Features
@@ -14,7 +14,7 @@ This project is a **To-Do Application** built with **React**, **TypeScript**, an
 - **Vite**: Provides a fast development and build environment.
 - **Drag and Drop**: Allows users to reorder tasks with drag-and-drop functionality for better task management.
 - **Jest Testing**: Includes basic unit tests using Jest to ensure the reliability of components and Redux logic.
-
+- **React Flow** Includes sole and group nodes creating
 ## Getting Started
 
 ### Prerequisites
@@ -50,22 +50,23 @@ npm run dev
 Application Structure
 Here’s an overview of the application’s structure:
 
-plaintext
-Copy code
 src/
 │
-├── components/   - Reusable UI components (e.g., TaskCard, TaskForm).
-├── pages/        - Page components (e.g., TaskList, TaskDetails).
-├── App.tsx       - Main application component.
-└── store/        - Redux store setup and configuration.
+├── components/                         # Reusable UI components
+│   ├── flow-element/                    # components => FlowElement (folder)
+│   └── node-tools/            # components => NodeToolsPlaintext (folder)
+│
+├── store/                              # Redux Toolkit store and slices
+│
+└── assets/ (optional)                  # Static assets like icons, images, etc.
+
 Core Functionality
-Task Management: Add, edit, mark as complete, and delete tasks.
-Responsive Design: The app layout adapts to various screen sizes.
-State Persistence: Task states are efficiently managed with Redux Toolkit.
-Drag and Drop: Reorder tasks easily by dragging and dropping them within the task list.
-Jest Testing: Unit tests are included for components and Redux logic to ensure everything works as expected.
-Project Goals
-This To-Do App demonstrates:
+Node Management: Create, group, connect, and delete visual task nodes.
+Flow Persistence: Node states and layouts are stored efficiently using Redux Toolkit.
+One-Click Reset: Instantly clear all nodes, connections, and saved data.
+Responsive Design: Flow canvas and UI adapt smoothly to all screen sizes.
+Drag and Drop: Freely move and connect nodes within the interactive flow.
+Jest Testing: Includes tests for flow logic, components, and Redux state.
 
 Proficiency in React and TypeScript for building scalable applications.
 Best practices in state management using Redux Toolkit.
